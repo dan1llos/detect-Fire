@@ -11,7 +11,6 @@ def detect_fire_on_video(video):
     frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
-    # Подготовим объект для записи видео с аннотациями
     out = cv2.VideoWriter('output_video_with_fire_detection.avi', fourcc, fps, (frame_width, frame_height))
 
     while cap.isOpened():
