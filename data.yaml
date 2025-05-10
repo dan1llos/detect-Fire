@@ -1,0 +1,4 @@
+train: "C:/PycharmProjects/fire3/dataset/train/images"
+val: "C:/PycharmProjects/fire3/dataset/val/images"
+nc: 1
+names: ['fire']
